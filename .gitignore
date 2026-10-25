@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.log
+.env
+.DS_Store
+Thumbs.db
+.env.*
+!.env.example
+
+# Per-instance runtime state: the library mapping cache, regenerated on demand.
+backend/data/mappings.json
